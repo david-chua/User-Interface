@@ -1,0 +1,195 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+p{
+	font-family: 'Noto Serif JP', sans-serif;
+}
+
+h2{
+	font-family: 'Notable', sans-serif;
+}
+header{
+width: 100%;
+position: fixed;
+background: #D3D3D3;
+z-index: 1000;
+}
+header nav{
+	display: inline-block;
+	margin: 0 20px;
+	padding: 20px;
+}
+header nav a{
+	margin: 0 40px;
+	text-decoration: none;
+	color: white;
+}
+
+.innovation p{
+	display: inline-block;
+	padding: 5px 15px;
+	border: 1px solid black;
+}
+
+.image-logo{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 20px;
+}
+
+.innovation-section{
+	padding-top: 120px;
+}
+.innovation{
+	position: relative;
+	right: -100px;
+	top: -100px;
+	display: inline-block;
+	width: 400px;
+	height: 200px;
+	text-align: center;
+}
+
+.innovation h1{
+		font-size: 70px;
+}
+
+.circle-image{
+	display: inline-block;
+	background: url("../img/header-img.png") no-repeat;
+	position: relative;
+	padding-top: 100px;
+	right: -400px;
+	width: 400px;
+	height: 400px;
+}
+/* section img{
+	position: relative;
+	padding-top: 100px;
+	right: -400px;
+} */
+ hr{
+	 width: 90%;
+ }
+
+.primary_info{
+	margin: 30px 70px;
+}
+
+ .features{
+	 display: inline-block;
+	 text-align: left;
+	 width: 40%;
+ }
+
+
+ .about{
+	 margin-left: 100px;
+ }
+
+ .middle-img{
+	 background: url("../img/mid-page-accent.jpg") ;
+	 width: 90%;
+	 height: 200px;
+	 display: block;
+	 margin: 0 auto;
+ }
+
+.three-sections{
+	width: 90%;
+	margin: 40px auto;
+
+}
+ .spv{
+	 display: inline-block;
+	 text-align: left;
+	 width: 30%;
+ }
+
+.contact-section{
+	width: 90%;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+ address{
+	 padding: 10px 0px;
+ }
+
+.contact-section a{
+	line-height: 30px;
+	text-decoration: none;
+	color: inherit;
+}
+
+footer{
+	text-align: center;
+	padding: 10px;
+}
+
+a:hover{
+	color: teal;
+}
