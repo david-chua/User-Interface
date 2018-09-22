@@ -79,6 +79,12 @@ header nav a{
 	color: lightgray;
 }
 
+.innovation p{
+	display: inline-block;
+	padding: 5px 15px;
+	border: 1px solid black;
+}
+
 .image-logo{
 	display: inline-block;
 	margin-left: 200px;
